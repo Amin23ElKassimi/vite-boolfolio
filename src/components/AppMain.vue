@@ -5,7 +5,7 @@
             <article @click="printTest" v-for="(project, index) in projects"  class="cards text-uppercase fw-bold">
                 <!-- Card Title  -->
                 <p class="title">
-                    {{project.type}}
+                    {{project.type.name}}
                 </p>
                 <!-- Original Title -->
                 <p>
@@ -67,7 +67,7 @@ export default {
 @use '../styles/partials/variables.scss' as *;
 
 img{
-    width: 100px;
+    width: 100%;
 }
 
 main {
