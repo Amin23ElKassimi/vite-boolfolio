@@ -9,7 +9,9 @@ import AppMain from './components/AppMain.vue';
 
 <template>
     <AppHeader/>
-    <AppMain/>
+    <!-- # questo e' illuogo dove tutto puo' cambiare in base alle rotte -->
+    <router-view></router-view>
+
 </template>
 
 <style lang="scss">
