@@ -5,7 +5,7 @@
                 <a class="navbar-brand" href="#">Boolpress</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>sdE
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item" v-for="(link, index) in linkItems" :key="index">
@@ -19,6 +19,7 @@
         </nav>
     </header>
 </template>
+
 <script>
 export default {
     data() {
@@ -29,18 +30,19 @@ export default {
                     routeName: 'home'
                 },
                 {
-                    label: 'Posts',
-                    routeName: 'posts'
+                    label: 'Projects',
+                    routeName: 'projects'
                 },
                 {
-                    label: 'Categories',
-                    routeName: 'categories'
+                    label: 'Technologies',
+                    routeName: 'technologies'
                 }
             ]
         }
     },
 }
 </script>
+
 <style lang="">
 
 </style>

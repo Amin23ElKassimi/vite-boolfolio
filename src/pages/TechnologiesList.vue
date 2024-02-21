@@ -1,7 +1,7 @@
 <template lang="">
     <div class="container">
         <h1>
-            Categories List:
+            Technologies List:
         </h1>
     </div>
 </template>
